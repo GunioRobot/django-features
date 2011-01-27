@@ -4,7 +4,7 @@
 
     Basic Django app to ease projects' roadmaps publishing.
 
-    :copyright: (c) 2009-2010 by Pavlo Kapyshin.
+    :copyright: (c) 2009-2011 by Pavlo Kapyshin.
     :license: BSD, see LICENSE for more details.
 '''
 
