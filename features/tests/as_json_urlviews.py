@@ -21,3 +21,4 @@ urlpatterns = patterns('',
     url(r'^dict/$', DictTest(), name='test_dict'),
     url(r'^list/$', ListTest(), name='test_list'),
 )
+

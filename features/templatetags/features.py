@@ -1,6 +1,3 @@
-import sys
-from types import ModuleType
-
 from django import template
 
 
@@ -31,7 +28,7 @@ def get_people_names(parser, token):
         tag_name, for_, feature, as_, var_name = token.split_contents()
     except ValueError:
         raise template.TemplateSyntaxError(
-            'Tag usage: {% %s for feature as var_name %}'
+            'Tag usage: {%% %s for feature as var_name %%}'
             % (token.contents.split()[0], )
         )
 
@@ -43,11 +40,3 @@ def get_people_names(parser, token):
 
     return PeopleNamesNode(feature, var_name)
 
-
-_locals = locals().copy()
-
-sys.modules['features.templatetags.features'] = \
-    features = ModuleType('features')
-
-for k, v in _locals.iteritems():
-    setattr(features, k, v)

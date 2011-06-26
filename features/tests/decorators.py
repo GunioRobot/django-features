@@ -16,3 +16,4 @@ class AsJsonTest(TestCase):
     def test_list(self):
         response = self.client.get(reverse('test_list'))
         self.assertEqual(response.content, '["Hello, JSON!", 123]')
+

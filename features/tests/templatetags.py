@@ -41,3 +41,4 @@ class GetPeopleNamesTest(TestCase):
         rendered = self.tmpl.render(Context({'obj': obj}))
         expected = ', '.join((username, ' '.join((fn2, ln2))))
         self.assertEqual(rendered, expected)
+

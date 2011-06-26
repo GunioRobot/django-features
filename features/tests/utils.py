@@ -143,3 +143,4 @@ class ObjToDictTest(TestCase):
     def test_with_no_fields(self):
         to_dict = obj_to_dict([])
         self.assertEqual(to_dict(object()), {})
+

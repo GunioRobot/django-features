@@ -103,3 +103,4 @@ class Feature(BaseFeature):
 
     def get_names(self):
         return map(get_name, self.people.all())
+

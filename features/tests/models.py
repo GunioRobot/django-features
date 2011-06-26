@@ -133,3 +133,4 @@ class FeatureModelTest(TestCase):
         names = obj.get_names()
         self.assertEqual(len(names), 2)
         self.assertEqual(names, [username, ' '.join((fn2, ln2))])
+

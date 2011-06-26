@@ -1,16 +1,9 @@
-'''
-    django-features
-    ~~~~~~~~~~~~~~~
-
-    Basic Django app to ease projects' roadmaps publishing.
-
-    :copyright: (c) 2009-2011 by Pavlo Kapyshin.
-    :license: BSD, see LICENSE for more details.
-'''
+'''Basic Django app to ease projects' roadmaps publishing.'''
 
 
-__version__ = '0.2'
-__author__ = 'Pavlo Kapyshin (admin@93z.org)'
+__version__ = '0.2.1'
+__author__ = 'Pavlo Kapyshin'
+__email__ = 'i@93z.org'
 
 
 from django.core.exceptions import ImproperlyConfigured

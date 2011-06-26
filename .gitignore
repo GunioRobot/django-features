@@ -1,7 +1,6 @@
 *~
 *.py[co]
 
-# Packages
 *.egg
 *.egg-info
 dist
@@ -11,14 +10,9 @@ parts
 bin
 develop-eggs
 .installed.cfg
-
-# Installer logs
 pip-log.txt
+MANIFEST
 
-# Unit test / coverage reports
 .coverage
 .tox
 
-
-# Built media
-*.packed.*

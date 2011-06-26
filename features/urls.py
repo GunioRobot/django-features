@@ -8,3 +8,4 @@ urlpatterns = patterns('',
     url(r'^(?P<feature_id>\d+)/$', FeatureDetails(), name='show_feature_details'),
     url(r'^$', FeaturesList(), name='list_features'),
 )
+

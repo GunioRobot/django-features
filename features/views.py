@@ -1,6 +1,5 @@
 from django.contrib.sites.models import Site
 from django.shortcuts import get_object_or_404
-from django.http import HttpResponse
 from django.conf import settings
 
 from features import get_model
@@ -60,3 +59,4 @@ class FeatureDetails(FeaturesView):
 
     def __call__(self, request, feature_id):
         return self.to_dict(get_object_or_404(self.model, id=feature_id))
+

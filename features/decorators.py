@@ -7,3 +7,4 @@ def as_json(func):
         data = func(*args, **kwargs)
         return HttpResponse(dumps(data), mimetype='application/json')
     return wrapper
+

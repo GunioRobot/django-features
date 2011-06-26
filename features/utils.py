@@ -27,3 +27,4 @@ def obj_to_dict(fields):
         return dict((get_field(field, obj) for field in fields))
 
     return _obj_to_dict
+

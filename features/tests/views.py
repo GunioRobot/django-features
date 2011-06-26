@@ -134,3 +134,4 @@ class ApiTest(TestCase):
         url = reverse('show_feature_details_arg', kwargs={'feature_id': feature2.id})
         response = loads(self.client.get(url).content)
         self.assertEqual(response, expected2)
+
